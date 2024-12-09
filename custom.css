@@ -1,0 +1,92 @@
+/* Customize background colors */
+.stApp {
+  background-color: rgba(25, 9, 94, 0.93); /* Very light pastel blue background */
+  font-family: 'sans-serif', Arial, sans-serif; /* Clean, modern font */
+  color: #3cb5c2; /* Neutral dark gray for text */
+  padding: 20px;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.05); /* Subtle inner shadow */
+}
+
+/* Customize button styles */
+.stButton>button {
+  background-color: #ca77e0; /* Soft blue buttons */
+  color: #FFFFFF; /* White text */
+  border: none;
+  border-radius: 8px; /* Slightly more rounded corners */
+  padding: 12px 24px; /* Comfortable padding */
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transitions */
+}
+
+.stButton>button:hover {
+  background-color: #c540ea; /* Slightly darker blue on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add depth on hover */
+  transform: translateY(-2px); /* Slight hover lift */
+}
+
+/* Customize headers */
+h1, h2, h3 {
+  color: #ffffff; /* Neutral soft gray-blue for headers */
+  font-family: 'Georgia', serif; /* Elegant serif font for headers */
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 2.4em;
+  font-weight: bold;
+  border-bottom: 3px solid #6D9DC5; /* Soft blue underline */
+  padding-bottom: 8px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.6em;
+  margin-top: 15px;
+}
+
+/* Add style to containers and cards */
+.stContainer {
+  background-color: #FFFFFF; /* White cards for contrast */
+  border-radius: 12px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Soft shadow */
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+/* Customize input fields */
+.stTextInput>div>input {
+  border: 1px solid #D1D9E0; /* Light gray border */
+  border-radius: 8px; /* Smooth rounded corners */
+  padding: 10px;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.stTextInput>div>input:focus {
+  border-color: #6D9DC5; /* Soft blue border on focus */
+  outline: none;
+  box-shadow: 0 0 6px rgba(109, 157, 197, 0.5); /* Gentle blue glow */
+}
+
+/* Add subtle link styles */
+a {
+  color: #5A8BB2; /* Soft blue links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #3E7A99; /* Darker blue on hover */
+}
+
+/* Add soft spacing */
+body {
+  line-height: 1.6; /* Improve text readability */
+  letter-spacing: 0.5px; /* Subtle spacing for cleaner typography */
+}
